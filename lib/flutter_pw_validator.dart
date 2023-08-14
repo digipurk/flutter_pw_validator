@@ -168,7 +168,8 @@ class FlutterPwValidatorState extends State<FlutterPwValidator> {
       width: SizeConfig.width,
       height: widget.height,
       child: new Column(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        //mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
           new Flexible(
             flex: 3,
