@@ -186,7 +186,7 @@ class FlutterPwValidatorState extends State<FlutterPwValidator> {
                 for (bool value in _conditionsHelper.getter()!.values)
                   if (value == false)
                     new ValidationBarComponent(color: widget.defaultColor),
-                SizedBox(height: 10.0),
+                SizedBox(height: 12.0),
               ],
             ),
           ),
