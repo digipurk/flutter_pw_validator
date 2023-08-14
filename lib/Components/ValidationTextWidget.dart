@@ -12,6 +12,7 @@ class ValidationTextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Text(
+      textAlign: TextAlign.left,
       text.replaceFirst("-", value.toString()),
       style: new TextStyle(fontSize: 14, color: color),
     );
