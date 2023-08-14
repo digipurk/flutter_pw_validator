@@ -185,7 +185,8 @@ class FlutterPwValidatorState extends State<FlutterPwValidator> {
                 // Iterate through the conditions map values to check if there is any false values then create red ValidationBarComponent.
                 for (bool value in _conditionsHelper.getter()!.values)
                   if (value == false)
-                    new ValidationBarComponent(color: widget.defaultColor)
+                    new ValidationBarComponent(color: widget.defaultColor),
+                SizedBox(height: 3.0),
               ],
             ),
           ),
