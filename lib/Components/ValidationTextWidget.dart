@@ -14,13 +14,13 @@ class ValidationTextWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Row(
       children: [
-        new Container(
+        /*new Container(
           width: SizeConfig.width! * 0.03,
           height: SizeConfig.width! * 0.03,
           child: new CircleAvatar(
             backgroundColor: color,
           ),
-        ),
+        ),*/
         Padding(
           padding: EdgeInsets.only(left: SizeConfig.width! * 0.03),
           child: new Text(
